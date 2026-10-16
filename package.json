@@ -1,0 +1,28 @@
+{
+  "name": "practical-13-bundle-optimization-env-management",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Practical 13: Bundle Size Optimization and Environment Management in React + Vite",
+  "scripts": {
+    "dev": "vite",
+    "dev:prod": "vite --mode production",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "build:prod": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^1.48.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
